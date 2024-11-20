@@ -1,1 +1,47 @@
-/* место для вашего кода */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 92px 24px;
+}
+
+.header-menu {
+    margin-right: 24px;
+}
+
+.header-menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: circle;
+}
+
+.header-menu-list
+.header-menu-item-main {
+    list-style-type: none;
+}
+
+.header-menu-link {
+    padding-right: 10px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-offset: 4px;
+    border: 1px solid black;
+}
+
+.header-logo {
+    width: 148px;
+    height: 105px;
+    left: 454px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.header-address {
+    text-decoration: underline;
+    text-underline-position: under;
+    border: 1px solid black
+    
+
+}
