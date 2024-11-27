@@ -14,22 +14,17 @@
 .header-menu {
     display: flex;
     justify-self: start;
-
-    
 }
 
 .header-menu-list {
     display: flex;
     justify-self: start;
     gap: 30px;
-
-    
 }
 
 .header-menu-item {
     list-style-type: circle;
     font-size: 18px;
-
 }
 
 .header-menu-list,
@@ -57,9 +52,8 @@
     font-weight: 400;
     line-height: 1.35;
     text-align: left;
-    text-decoration-skip-ink: none;
     text-underline-position: under;
-
+    text-decoration-skip-ink: none;
 }
 
 .header-address {
@@ -74,11 +68,9 @@
     background-position: center;
     background-size: cover;
     z-index: -2;
-    height: 757px;
+    height: 100%;
     opacity: 0px;
     margin-bottom: 182px;
-
-    
 }
 
 .overlay {
@@ -120,7 +112,6 @@
 
 .letter-spacing-ad {
     letter-spacing: 0.3em;
-
 }
 
 .no-letter-spacing {
@@ -145,6 +136,8 @@
 }
 
 .bet-button {
+    font-family: Raleway, sans-serif;
+    cursor: pointer;
     background-color: transparent;
     text-transform: uppercase;
     font-size: 22px;
@@ -161,14 +154,12 @@
     flex-direction: column;
     gap: 30px;
     margin-bottom: 146px;
-   
 }
 
 .lots-heading {
     padding-left: 40px;
     text-transform: uppercase;
     font-size: 40px;
-
 }
 
 .lots-card-list {
@@ -182,14 +173,12 @@
     width: 334px;
     min-height: 563px;
     flex-grow: 1;
-
 }
 
 .card-link {
     display: block;
     text-decoration: none;
     height: 100%;
-
 }
 
 .card {
@@ -201,8 +190,9 @@
     z-index: -2;
     color: white;
     padding: 50px 40px 50px;
-    
-   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .card-title {
@@ -212,36 +202,24 @@
     font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
-
 }
 
 .card-text {
     position: relative;
     font-size: 20px;
     line-height: 1.2;
-
-    
 }
 
 .card-type-film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .card-type-book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }  
 
 .card-type-picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .lots-look-more-link {
@@ -249,7 +227,6 @@
     font-weight: normal;
     margin-left: 40px;
     text-decoration: underline;
-
 }
 
 .about {
@@ -273,11 +250,9 @@
     margin-left: 47px;
     /**grid-column-start: 1;
     grid-column-end: 1;**/
-
 }
 
 .about-logo-image {
-    position: absolute;
     width: 142px;
     height: 113px;
 }
